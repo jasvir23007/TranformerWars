@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".screens.transformers.CreateEditFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="80dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/name"
+                app:layout_constraintLeft_toLeftOf="@id/name"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:hint="Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team (A - Autobots / D - Descepticons)"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/team"
+                app:layout_constraintLeft_toLeftOf="@id/team"/>
+
+            <EditText
+                android:id="@+id/team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/name"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:hint="Team"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strength"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/strength"
+                app:layout_constraintLeft_toLeftOf="@id/strength"/>
+
+            <EditText
+                android:id="@+id/strength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/team"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Strength"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intelligence"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/intelligence"
+                app:layout_constraintLeft_toLeftOf="@id/intelligence"/>
+
+            <EditText
+                android:id="@+id/intelligence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/strength"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Intelligence"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speed"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/speed"
+                app:layout_constraintLeft_toLeftOf="@id/speed"/>
+
+            <EditText
+                android:id="@+id/speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/intelligence"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Speed"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endurance"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/endurance"
+                app:layout_constraintLeft_toLeftOf="@id/endurance"/>
+
+            <EditText
+                android:id="@+id/endurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/speed"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Endurance"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rank"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/rank"
+                app:layout_constraintLeft_toLeftOf="@id/rank"/>
+
+            <EditText
+                android:id="@+id/rank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/endurance"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Rank"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courage"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/courage"
+                app:layout_constraintLeft_toLeftOf="@id/courage"/>
+
+            <EditText
+                android:id="@+id/courage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/rank"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Courage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Firepower"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/firepower"
+                app:layout_constraintLeft_toLeftOf="@id/firepower"/>
+
+            <EditText
+                android:id="@+id/firepower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/courage"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Firepower"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skill"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@id/skill"
+                app:layout_constraintLeft_toLeftOf="@id/skill"/>
+
+            <EditText
+                android:id="@+id/skill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/firepower"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_margin="20dp"
+                android:inputType="number"
+                android:hint="Skill"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/actionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom|right"/>
+</FrameLayout>

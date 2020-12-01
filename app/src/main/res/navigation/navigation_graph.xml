@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/transformersFragment"
+        android:name="com.transformers.test.screens.transformers.TransformersFragment"
+        android:label="fragment_transformers"
+        tools:layout="@layout/fragment_transformers" >
+        <action
+            android:id="@+id/action_transformersFragment_to_createEditFragment"
+            app:destination="@id/createEditFragment" />
+        <action
+            android:id="@+id/action_transformersFragment_to_battleFragment"
+            app:destination="@id/battleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.transformers.test.screens.transformers.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_transformersFragment"
+            app:destination="@id/transformersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createEditFragment"
+        android:name="com.transformers.test.screens.transformers.CreateEditFragment"
+        android:label="fragment_create_edit"
+        tools:layout="@layout/fragment_create_edit" />
+    <fragment
+        android:id="@+id/battleFragment"
+        android:name="com.transformers.test.screens.transformers.BattleFragment"
+        android:label="fragment_battle"
+        tools:layout="@layout/fragment_battle" />
+</navigation>

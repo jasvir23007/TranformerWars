@@ -1,0 +1,102 @@
+{
+  "transformers": [
+    {
+      "courage": 5,
+      "endurance": 6,
+      "firepower": 6,
+      "id": "-MCZzGAlCt1V-mMGwGtU",
+      "intelligence": 9,
+      "name": "soundtrack",
+      "rank": 7,
+      "skill": 10,
+      "speed": 2,
+      "strength": 8,
+      "team": "D",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/8/8d/20110410191659%21Symbol_decept_reg.png"
+    },
+    {
+      "courage": 2,
+      "endurance": 9,
+      "firepower": 9,
+      "id": "-MCZzPZ4WcAJQph8Zw83",
+      "intelligence": 6,
+      "name": "BlueStacks",
+      "rank": 5,
+      "skill": 7,
+      "speed": 7,
+      "strength": 6,
+      "team": "A",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/f/fe/20110410191732%21Symbol_autobot_reg.png"
+    },
+    {
+      "courage": 4,
+      "endurance": 4,
+      "firepower": 4,
+      "id": "-MCZzW2HUQ3OqEhjdicv",
+      "intelligence": 4,
+      "name": "hubcap",
+      "rank": 4,
+      "skill": 4,
+      "speed": 4,
+      "strength": 4,
+      "team": "A",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/f/fe/20110410191732%21Symbol_autobot_reg.png"
+    },
+    {
+      "courage": 5,
+      "endurance": 6,
+      "firepower": 2,
+      "id": "-MC_1SG-jd-SocK9TPYm",
+      "intelligence": 5,
+      "name": "Optimus Prime",
+      "rank": 6,
+      "skill": 8,
+      "speed": 6,
+      "strength": 6,
+      "team": "A",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/f/fe/20110410191732%21Symbol_autobot_reg.png"
+    },
+    {
+      "courage": 9,
+      "endurance": 9,
+      "firepower": 9,
+      "id": "-MCbne2wjyOhVMaVMBjl",
+      "intelligence": 9,
+      "name": "Predaking",
+      "rank": 9,
+      "skill": 9,
+      "speed": 9,
+      "strength": 9,
+      "team": "D",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/8/8d/20110410191659%21Symbol_decept_reg.png"
+    },
+    {
+      "courage": 9,
+      "endurance": 6,
+      "firepower": 6,
+      "id": "-MCbqli1Qbjs3AcLY3HS",
+      "intelligence": 9,
+      "name": "bola de nieve",
+      "rank": 8,
+      "skill": 5,
+      "speed": 5,
+      "strength": 6,
+      "team": "D",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/8/8d/20110410191659%21Symbol_decept_reg.png"
+    },
+    {
+      "courage": 9,
+      "endurance": 9,
+      "firepower": 9,
+      "id": "-MCbr32QtcFa9pOl24i1",
+      "intelligence": 9,
+      "name": "meme",
+      "rank": 9,
+      "skill": 9,
+      "speed": 9,
+      "strength": 9,
+      "team": "A",
+      "team_icon": "https://tfwiki.net/mediawiki/images2/archive/f/fe/20110410191732%21Symbol_autobot_reg.png"
+    }
+  ]
+}
